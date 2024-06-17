@@ -1,8 +1,21 @@
-# React + Vite
+# Web3Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple portfolio website that displays content once connected with a MetaMask wallet. It also includes a "Donate me ETH" option.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- *React*
+  - For building the user interface.
+- *Web3.js*
+  - For interacting with the Ethereum blockchain.
+- *MetaMask*
+  - For connecting to the Ethereum wallet.
+
+## Features
+
+- *MetaMask Integration:*
+  - Users can connect their MetaMask wallet to view the portfolio content.
+- *Content Display:*
+  - All portfolio content is displayed once the wallet is connected.
+- *Donate ETH:*
+  - Users can donate Ethereum to the portfolio owner.
